@@ -17,6 +17,13 @@ let num2 = 32;
 - Alert `The sum of [num1] and [num2] is [num1 + num1]`
 */
 
+let language = "JavaScript";
+
+alert(`I am learning ${language}`);
+
+alert(`The value of num1 is ${num1} and the value of num2 is ${num2}`);
+
+alert(`The sum of ${num1} and ${num2} is ${num1 + num1}`);
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
 
@@ -33,6 +40,24 @@ let num2 = 32;
     Profession: [userProfession]` (it should be in three different lines)
 */
 
+let userName = prompt( "Enter your name", "" );
+
+let userProfession = prompt( "Enter your profession", "" );
+
+confirm("Are you above 18");
+
+alert(`I am ${userName} a ${userProfession}`);
+
+console.log(`I am ${userName} a ${userProfession}`);
+
+alert(`Username: ${userName}
+Adult: ${isAdult}
+Profession: ${userProfession}`);
+
+console.log(`Username: ${userName}
+Adult: ${isAdult}
+Profession: ${userProfession}`);
+
 /*
 . Addition using prompt
 
@@ -43,3 +68,17 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+
+let numA = prompt("Type the first number", "");
+
+let numB = prompt("Type the second number", "");
+
+alert(Number(numA) + Number(numB));
+
+alert(Number(numA) - Number(numB));
+
+alert(Number(numA) * Number(numB));
+
+console.log(Number(numA) - Number(numB));
+
+console.log(Number(numA) * Number(numB));

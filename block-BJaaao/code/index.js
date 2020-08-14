@@ -44,7 +44,7 @@ let userName = prompt( "Enter your name", "" );
 
 let userProfession = prompt( "Enter your profession", "" );
 
-confirm("Are you above 18");
+let isAdult = confirm("Are you above 18");
 
 alert(`I am ${userName} a ${userProfession}`);
 

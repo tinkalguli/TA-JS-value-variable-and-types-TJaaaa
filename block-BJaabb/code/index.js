@@ -44,7 +44,7 @@ for (let j = 9; j >= 1; j--){
 
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
 
-let total = 0;
+let total = "";
 let j = 5;
 
 while (j >= 0) {
@@ -57,7 +57,7 @@ console.log(total);
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
 
 let i = 10;
-let sumEven = 0;
+let sumEven = "";
 
 while (i >= 0) {
     if (i % 2 === 0) {
